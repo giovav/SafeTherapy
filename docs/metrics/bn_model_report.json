@@ -1,0 +1,31 @@
+{
+  "model": "DiscreteBayesianNetwork (pgmpy)",
+  "structure": {
+    "nodes": [
+      "AgeGroup",
+      "IsFragile",
+      "WeightGroup",
+      "HasConcomitant"
+    ],
+    "edges": [
+      [
+        "AgeGroup",
+        "IsFragile"
+      ],
+      [
+        "WeightGroup",
+        "IsFragile"
+      ],
+      [
+        "HasConcomitant",
+        "IsFragile"
+      ]
+    ]
+  },
+  "estimator": "BayesianEstimator (BDeu, equivalent_sample_size=10)",
+  "training_samples": 618628,
+  "goodness_of_fit_metrics": {
+    "bdeu_score": -1426180.7781,
+    "bic_score": -1426212.3955
+  }
+}

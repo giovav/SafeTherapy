@@ -1,0 +1,7 @@
+# File di sistema macOS
+.DS_Store
+
+# Cache di Python
+__pycache__/
+*.py[cod]
+*$py.class
